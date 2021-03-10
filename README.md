@@ -113,4 +113,8 @@
 ```
 - The total runtime for this code for each year is as follows:
   
-(resources/VBA_Challenge_2017_Initial_time.png) (resources/VBA_Challenge_2018_Initial_time.png)
+[2017] 
+(resources/VBA_Challenge_2017_Initial_time.png) 
+
+[2018]
+(resources/VBA_Challenge_2018_Initial_time.png)
