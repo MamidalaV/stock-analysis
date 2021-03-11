@@ -206,6 +206,8 @@
         
   - Below is the time taken for the code to run for each year:
   ![Refactored_2017](resources/VBA_Challenge_2017.png)
+  
+  
   ![Refactored_2018](resources/VBA_Challenge_2018.png)
   
 # SUMMARY:
