@@ -204,7 +204,7 @@
 
   ### Final summary of the analysis for years are below and the time taken to run the code for each year:
         
-  - Below is the time taken for the code to run for each year:
+  - Below are the screenshots of the pop up messages showing the time taken for the code to run for each year:
     ![Refactored_2017](resources/VBA_Challenge_2017.png)
 
 
