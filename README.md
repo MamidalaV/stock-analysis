@@ -210,6 +210,8 @@
 
     ![Refactored_2018](resources/VBA_Challenge_2018.png)
   
+   - Clearly the refactored code runs much faster than the initial code.
+  
 # SUMMARY:
 
 ### 1. Advantages of refactoring the code:
