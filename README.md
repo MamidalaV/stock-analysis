@@ -1,6 +1,6 @@
 # stock-analysis
 
-### Purpose of this project is to analyze Green Enery stock data for years 2017 - 2018 and provide insights on which is the best to add to the portfolio. VBA has been used to acheive this. The VBA script has also been refactored to make the macro more robust and faster. Details are provided below.
+### Purpose of this project is to analyze Green Enery stock data for years 2017 - 2018 and provide insights on which is the best stock that can be added to the client's portfolio. VBA has been used to acheive this. The VBA script has also been refactored to make the macro more robust and faster. Details are provided below.
 
 ## Analysis of Green Energy Stocks
 
