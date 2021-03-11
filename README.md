@@ -110,15 +110,16 @@
     End If
 
     Next i
-  ```
-  - Final summary of the analysis for years are below:
-    [2017] (resources/2017_Summary_Table.png)
+    ```
+    
+    - Final summary of the analysis for years are below:
+      [2017] (resources/2017_Summary_Table.png)
 
-    [2018] (resources/2018_Summary_Table.png)
+      [2018] (resources/2018_Summary_Table.png)
 
 
-  - The total runtime for this code for each year is as follows:
+    - The total runtime for this code for each year is as follows:
 
-    [2017] (resources/VBA_Challenge_2017_Initial_time.png?raw=true) 
+      [2017] (resources/VBA_Challenge_2017_Initial_time.png?raw=true) 
 
-    [2018] (resources/VBA_Challenge_2018_Initial_time.png)
+      [2018] (resources/VBA_Challenge_2018_Initial_time.png)
