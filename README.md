@@ -113,9 +113,9 @@
     ```
     
     - Final summary of the analysis for years are below:
-      [2017](resources/2017_Summary_Table.png)
+      [](resources/2017_Summary_Table.png)
 
-      [2018](resources/2018_Summary_Table.png)
+      [](resources/2018_Summary_Table.png)
 
 
     - The total runtime for this code for each year is as follows:
