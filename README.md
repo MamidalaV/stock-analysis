@@ -169,23 +169,26 @@
    ```     
    
    - check if the current row is the last row with the selected ticker
-   ```         
-         'If the next row’s ticker doesn’t match, increase the tickerIndex.
-                     
-                If Cells(i + 1, 1).Value <> tickers(tickerIndex) Then
-                
-                    tickerEndingPrices(tickerIndex) = Cells(i, 6).Value
-                                
-                    '3d Increase the tickerIndex.
-                
-                    tickerIndex = tickerIndex + 1
-                
-                End If
+   
+   
+       
+   ```    
+       'If the next row’s ticker doesn’t match, increase the tickerIndex.
+
+              If Cells(i + 1, 1).Value <> tickers(tickerIndex) Then
+
+                  tickerEndingPrices(tickerIndex) = Cells(i, 6).Value
+
+                  '3d Increase the tickerIndex.
+
+                  tickerIndex = tickerIndex + 1
+
+              End If
+
+          Next i
+   ```
     
-            Next i
-    ```  
-    
-    - Loop through your arrays to output the Ticker, Total Daily Volume, and Return.
+   - Loop through your arrays to output the Ticker, Total Daily Volume, and Return.
    
     ```
         For i = 0 To 11
@@ -199,10 +202,8 @@
         Next i
     ```
 
-  ### Final summary of the analysis for years are below:
+### Final summary of the analysis for years are below:
   
-  ![](resources/VBA_Challenge_2017.png)
-  
-  ![](resources/VBA_Challenge_2018.png)
-  
-  
+    ![2017](resources/VBA_Challenge_2017.png)
+
+    ![2018](resources/VBA_Challenge_2018.png)
