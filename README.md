@@ -8,7 +8,7 @@
 
   - After carefully analyzing and reviewing the stock performance of DQ for the year 2018, it has been observed that this ticker has not given any positive returns and has resulted in a negative return of -62.6%. Due to this, it is highly recommeneded to avoid adding this company to your portfolio.
 
-##Results:
+## Results:
 
 ### Analysis of all other for years 2017 - 2018.
 
@@ -111,14 +111,14 @@
 
     Next i
 ```
-- Final summary of the analysis for years are below:
-  [2017] (resources/2017_Summary_Table.png)
-  
-  [2018] (resources/2018_Summary_Table.png)
-  
+  - Final summary of the analysis for years are below:
+    [2017] (resources/2017_Summary_Table.png)
 
-- The total runtime for this code for each year is as follows:
-  
-[2017] (resources/VBA_Challenge_2017_Initial_time.png?raw=true) 
+    [2018] (resources/2018_Summary_Table.png)
 
-[2018] (resources/VBA_Challenge_2018_Initial_time.png)
+
+  - The total runtime for this code for each year is as follows:
+
+  [2017] (resources/VBA_Challenge_2017_Initial_time.png?raw=true) 
+
+  [2018] (resources/VBA_Challenge_2018_Initial_time.png)
