@@ -4,7 +4,7 @@
 
 ## Analysis of Green Energy Stocks
 
-### Analysis of DAQO New Energy Corp (Ticker: DQ)
+### Analysis of DAQO New Energy Corp (Ticker: DQ) - Client's preferred choice
 
   - After carefully analyzing and reviewing the stock performance of DQ for the year 2018, it has been observed that this ticker has not given any positive returns and has resulted in a negative return of -62.6%. Due to this, it is highly recommeneded to avoid adding this company to your portfolio.
 
