@@ -112,7 +112,7 @@
     Next i
     ```
     
-    - Final summary of the analysis for years are below:
+    - Summary of the analysis for years are below:
         
       ![2017](resources/2017_Summary_Table.png)
 
@@ -121,6 +121,86 @@
 
     - The total runtime for this code for each year is as follows:
 
-      ![2017](resources/VBA_Challenge_2017_Initial_time.png) 
+      ![2017](resources/VBA_Challenge_2017_Initial_time.png)
 
       ![2018](resources/VBA_Challenge_2018_Initial_time.png)
+      
+      
+  ## Refactoring the above to run faster.
+  
+  ### To optimize code and reduce the time taken to run the query, the following changes have been made:
+  
+  - Intorduced a new variable that wil loop through the data one time and collect all of the information
+  ```
+      '1a) Create a ticker Index
+        
+        Dim tickerIndex As Integer
+        
+        tickerIndex = 0
+  ```
+  
+  - Three new output arrays have been created.
+  ```
+        Dim tickerVolumes(12) As Long
+        Dim tickerStartingPrices(12) As Single
+        Dim tickerEndingPrices(12) As Single
+  ```
+  
+  - Loop over all the rows in the spreadsheet.
+  ```            
+         For i = 2 To rowcount
+  ```  
+        
+   - Increase volume for current ticker
+        
+  ```
+       tickerVolumes(tickerIndex) = tickerVolumes(tickerIndex) + Cells(i, 8).Value
+  
+  ```        
+        
+   - Check if the current row is the first row with the selected tickerIndex.
+       
+   ```    
+        If Cells(i - 1, 1).Value <> tickers(tickerIndex) Then
+
+            tickerStartingPrices(tickerIndex) = Cells(i, 6).Value
+
+        End If
+   ```     
+   
+   - check if the current row is the last row with the selected ticker
+   ```         
+         'If the next row’s ticker doesn’t match, increase the tickerIndex.
+                     
+                If Cells(i + 1, 1).Value <> tickers(tickerIndex) Then
+                
+                    tickerEndingPrices(tickerIndex) = Cells(i, 6).Value
+                                
+                    '3d Increase the tickerIndex.
+                
+                    tickerIndex = tickerIndex + 1
+                
+                End If
+    
+            Next i
+    ```  
+    
+   - Loop through your arrays to output the Ticker, Total Daily Volume, and Return.
+   
+   ```
+   For i = 0 To 11
+        
+        Worksheets("All Stocks Analysis").Activate
+        tickerIndex = i
+            Cells(i + 4, 1).Value = tickers(tickerIndex)
+            Cells(i + 4, 2).Value = tickerVolumes(tickerIndex)
+            Cells(i + 4, 3).Value = tickerEndingPrices(tickerIndex) / tickerStartingPrices(tickerIndex) - 1
+    ```
+
+  ### Final summary of the analysis for years are below:
+  
+  ![](resources/VBA_Challenge_2017.png)
+  
+  ![](resources/VBA_Challenge_2018.png)
+  
+  
