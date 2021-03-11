@@ -10,7 +10,7 @@
 
 ## Results:
 
-### Analysis of all other for years 2017 - 2018.
+### Code built to analyze all other stocks for years 2017 - 2018.
 
   - At first, the output sheet is formatted by adding a Sheet header and row headers. This is done by using the below code:
     ```
@@ -22,7 +22,7 @@
         Cells(3, 2) = "Total Daily Volume"
         Cells(3, 3) = "Return"
     ```
-    - An array has been initialized for all 12 tickers in the worksheet and values has been assigned.
+    - An array has been initialized for all 12 tickers in the worksheet and values have been assigned.
     ```
         'assigning values to elemnets in array
         tickers(0) = "AY"
@@ -38,7 +38,7 @@
         tickers(10) = "TERP"
         tickers(11) = "VSLR"
     ```
-    - Using multiple 'For' loops and If-then statements, the array is used to loop through all rows in the worksheet to aggregate volume, starting price and ending price of each ticker.
+    - Using 'For' loops and If-then statements, the array is used to loop through all rows in the worksheet to aggregate volume, starting price and ending price of each ticker.
     ```
     For i = 0 To 11
         ticker = tickers(i)
